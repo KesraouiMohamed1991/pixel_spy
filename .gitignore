@@ -1,0 +1,27 @@
+.env
+node_modules# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# MacOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Production build (si tu en as un)
+dist/
+build/
+
+# Images ou fichiers générés (optionnel, si tu ne veux pas commit ces fichiers)
+public/*.png
+public/*.jpg
